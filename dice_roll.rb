@@ -8,5 +8,6 @@
 # end
 
 def roll
-  return [1..6].rand
+  arr = [1..6]
+  return rand(arr)
 end
