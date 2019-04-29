@@ -8,6 +8,5 @@
 # end
 
 def roll
-  arr = [1..6]
-  return arr.to_i.shuffle
+  [1..6].sample
 end
