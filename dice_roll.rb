@@ -4,5 +4,5 @@
 
 def roll
   # code goes here
-  return ran(1..6)
+  return ran(1...6)
 end
