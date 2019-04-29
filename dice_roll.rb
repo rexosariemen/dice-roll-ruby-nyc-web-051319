@@ -8,5 +8,5 @@
 # end
 
 def roll
-  [1..6].shuffle
+  rand(1..6)
 end
