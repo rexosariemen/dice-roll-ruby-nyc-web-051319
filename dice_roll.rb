@@ -9,5 +9,5 @@
 
 def roll
   arr = [1..6]
-  return rand(arr)
+  return arr.shuffle
 end
